@@ -9,6 +9,7 @@ import AuthView from './views/AuthView';
 import InstascanView from './views/InstascanView';
 import Navigation from './components/Navigation';
 import { dbService } from './services/dbService';
+import { soundService } from './services/soundService';
 import { UserStats, Notification, BinCategory } from './types';
 import { X, Recycle, Leaf, Trash2, BellRing, Zap } from 'lucide-react';
 

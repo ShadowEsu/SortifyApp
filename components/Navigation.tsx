@@ -14,7 +14,7 @@ const Navigation: React.FC<NavigationProps> = ({ currentView, onNavigate }) => {
     { id: 'map', icon: MapPin, label: 'RADAR' },
     { id: 'leaderboard', icon: Trophy, label: 'RANKS' },
     { id: 'profile', icon: User, label: 'OP_ID' },
-    { id: 'instascan', icon: Zap, label: 'INSTASCAN' },
+    { id: 'instascan', icon: Zap, label: 'HARDWARE' },
   ];
 
   const handleNav = (id: string) => {
@@ -27,6 +27,7 @@ const Navigation: React.FC<NavigationProps> = ({ currentView, onNavigate }) => {
       {tabs.map((tab) => {
         const Icon = tab.icon;
         const isActive = currentView === tab.id;
+        
         return (
           <button
             key={tab.id}
