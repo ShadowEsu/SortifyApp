@@ -1,0 +1,8 @@
+{
+  "name": "SORTIFY",
+  "description": "The ultimate gamified waste sorting companion. Level up your impact, climb the ranks, and save the planet.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
